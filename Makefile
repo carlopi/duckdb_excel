@@ -1,6 +1,7 @@
 PROJ_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 # Configuration of extension
+DUCKDB_DEFAULT_VERSION=v1.0.0
 EXT_NAME=excel
 EXT_CONFIG=${PROJ_DIR}extension_config.cmake
 
